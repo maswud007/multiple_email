@@ -3,7 +3,7 @@ import smtplib as sb
 object = sb.SMTP('smtp.gmail.com',587)
 object.ehlo()
 object.starttls()
-object.login('abdullahalmaswudewu@gmail.com','maswud@123')
+object.login('abdullahalmaswudewu@gmail.com','pass')
 subject = "Testing python to send multiple email"
 body = "I love you tuptup"
 message = "subject:{}\n\n{}".format(subject,body)
